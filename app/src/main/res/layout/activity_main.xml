@@ -11,23 +11,47 @@ android:orientation="vertical" >
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:padding="24dp"
-    android:text="@string/question_text" />
-<LinearLayout
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal" >
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/true_button"
-        android:id="@+id/true_button"
-        style="?android:attr/buttonBarButtonStyle" />
+    android:id="@+id/question_text_view" />
 
-    <Button
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/false_button"
-        android:id="@+id/false_button"
-        style="?android:attr/buttonBarButtonStyle" />
-</LinearLayout>
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <Button
+            android:id="@+id/true_button"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/true_button" />
+
+        <Button
+            android:id="@+id/false_button"
+            android:layout_margin="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/false_button" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+        <ImageButton
+            android:id="@+id/back_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:src="@drawable/baseline_chevron_left_24"
+            android:contentDescription="@string/back_button" />
+        <ImageButton
+            android:id="@+id/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:src="@drawable/baseline_keyboard_arrow_right_24"
+            android:contentDescription="@string/next_button" />
+    </LinearLayout>
+
 </LinearLayout>
