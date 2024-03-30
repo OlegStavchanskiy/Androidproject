@@ -17,4 +17,11 @@ Linux.</string>
 файле XML.</string>
     <string name="question_manifest">AndroidManifest.xml предоставляет
 системе основную информацию о программе.</string>
+
+    <string name="question_apple">Android - это операционная система, разработанная компанией Apple.</string>
+    <string name="question_market">Приложения для Android можно загружать только из официального магазина приложений Google Play.</string>
+    <string name="question_threading">Android поддерживает мультизадачность, что позволяет запускать несколько приложений одновременно.</string>
+    <string name="question_pc">Android одинаково хорошо работает как на мобильных устройствах, так и на персональных компьютерах.</string>
+    <string name="question_async">В Android, для выполнения асинхронных операций, часто используется класс AsyncTask.</string>
+
 </resources>
