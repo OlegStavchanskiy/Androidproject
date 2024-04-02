@@ -33,6 +33,7 @@
             android:layout_height="wrap_content"
             android:text="@string/false_button" />
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -47,6 +48,12 @@
             android:src="@drawable/baseline_chevron_left_24"
             android:layout_gravity="bottom|start"
             android:contentDescription="@string/back_button" />
+        <Button
+            android:id="@+id/deceit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/deceit_button" />
         <ImageButton
             android:id="@+id/next_button"
             android:layout_width="wrap_content"

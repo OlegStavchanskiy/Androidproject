@@ -13,6 +13,9 @@
         android:theme="@style/Theme.DroidQuest"
         tools:targetApi="31">
         <activity
+            android:name=".DeceitActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
